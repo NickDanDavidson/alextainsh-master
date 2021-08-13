@@ -21,9 +21,81 @@ collections:
         name: "home"
         file: "index.md"
         fields:
-          - {label: "Display Text", name: "display_text", widget: "markdown"}
-          - {label: "Display Subtext", name: "display_subtext", widget: "markdown"}
-          - {label: "Hero Description", name: "hero_description", widget: "markdown"}
+          - label: "Home Section"
+            name: "home_section"
+            widget: "object"
+            fields:
+              - {label: "Hero Header", name: "hero_header", widget: "string"}
+              - {label: "Hero Subheader 1", name: "hero_subheader1", widget: "string"}
+              - {label: "Hero Subheader 2", name: "hero_subheader2", widget: "string"}
+              - label: "Home Images"
+                name: "home_images"
+                widget: "list"
+                fields:
+                  - {label: "Slide Image", name: "slide_image", widget: "image"}
+          - label: "About Section"
+            name: "about_section"
+            widget: "object"
+            fields:
+              - {label: "Heading", name: "heading", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Lead In", name: "lead_in", widget: "text"}
+              - {label: "Content", name: "content", widget: "markdown"}
+          - label: "Work Section"
+            name: "work_section"
+            widget: "object"
+            fields:
+              - {label: "Header", name: "header", widget: "string"}
+              - {label: "Head Copy", name: "head_copy", widget: "text"}
+              - {label: "Head Video", name: "head_video", widget: "string"}
+              - label: "Sections"
+                name: "sections"
+                widget: "list"
+                fields:
+                  - label: "Layout"
+                    name: "layout"
+                    widget: "select"
+                    options:
+                      - {label: "Text Layout", value: "text_layout"}
+                      - {label: "Centered Video", value: "centered_video"}
+                      - {label: "Image Gallery", value: "image_gallery"}
+                  - {label: "Text Layout—Header", name: "text_header", widget: "string"}
+                  - {label: "Text Layout-Copy", name: "text_copy", widget: "text"}
+                  - {label: "Text Layout-Image", name: "text_image", widget: "image"}
+                  - {label: "Text Layout-Image Position", name: "text_image_position", widget: select, options: ["left", "right"]}
+                  - {label: "Video Layout—Header", name: "video_header", widget: "string"}
+                  - {label: "Video Layout—Copy", name: "video_copy", widget: "text"}
+                  - {label: "Video Layout—Link", name: "video_link", widget: "string"}
+                  - label: "Gallery—Images"
+                    name: "gallery_images"
+                    widget: "list"
+                    fields:
+                      - {label: "Caption Header", name: "caption_header", widget: "string"}
+                      - {label: "Caption Copy", name: "caption_copy", widget: "string"}
+                      - {label: "Gallery Image", name: "gallery_image", widget: "image"}
+          - label: "Image Grid Section"
+            name: "grid_section"
+            widget: "object"
+            fields:
+              - {label: "Heading", name: "heading", widget: "string"}
+              - {label: "Copy", name: "copy", widget: "text"}
+              - label: "Images OF Me"
+                name: "images_of_me"
+                widget: "list"
+                fields:
+                  - {label: "Image of Me", name: "image_of_me", widget: "image"}
+              - label: "Images BY Me"
+                name: "images_by_me"
+                widget: "list"
+                fields:
+                  - {label: "Image by Me", name: "image_by_me", widget: "image"}
+          - label: "Contact Section"
+            name: "contact_section"
+            widget: "object"
+            fields:
+              - {label: "Heading", name: "heading", widget: "string"}
+              - {label: "Copy", name: "copy", widget: "text"}
+              - {label: "Side Image", name: "side_image", widget: "image"}
   - name: "config"
     label: "Config"
     editor:
