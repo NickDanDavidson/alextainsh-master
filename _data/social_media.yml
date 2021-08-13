@@ -1,0 +1,12 @@
+items:
+  - name: Facebook
+    link: https://www.facebook.com/profile.php?id=5314579
+    fa-icon: fa-facebook
+  - name: Twitter
+    link: https://twitter.com/alextanish
+  - name: Instagram
+    link: https://www.instagram.com/artainsh/
+    fa-icon: fa-instagram
+  - name: LinkedIn
+    link: https://www.linkedin.com/in/alex-tainsh-a340979
+    fa-icon: fa-linkedin

@@ -1,12 +1,52 @@
-# config.yml
-
 backend:
   name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
-media_folder: 'assets/uploads'
+  branch: master
+
+publish_mode: editorial_workflow
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: deepwywnm
+    api_key: 997685817411955
+
 collections:
-  - name: 'blog'
-    label: 'Blog'
-    folder: '_posts/'
-    fields:
-      - { name: Title }
+  - label: "Pages"
+    name: "pages"
+    editor:
+      preview: false
+    files:
+      - label: "Home"
+        name: "home"
+        file: "index.md"
+        fields:
+          - {label: "Display Text", name: "display_text", widget: "markdown"}
+          - {label: "Display Subtext", name: "display_subtext", widget: "markdown"}
+          - {label: "Hero Description", name: "hero_description", widget: "markdown"}
+  - name: "config"
+    label: "Config"
+    editor:
+      preview: false
+    files:
+      - label: "Navigation"
+        name: "navigation"
+        file: "_data/navigation.yml"
+        fields:
+          - label: "Navigation Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Link, name: link, widget: string}
+      - label: "Social Media"
+        name: "social_media"
+        file: "_data/social_media.yml"
+        fields:
+          - label: "Social Media Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Link, name: link, widget: string}
+              - {label: Fa Icon, name: fa-icon, widget: string}
