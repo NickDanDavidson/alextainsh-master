@@ -4,6 +4,7 @@ items:
     fa-icon: fa-facebook
   - name: Twitter
     link: https://twitter.com/alextanish
+    fa-icon: fa-twitter
   - name: Instagram
     link: https://www.instagram.com/artainsh/
     fa-icon: fa-instagram
