@@ -71,7 +71,7 @@ about_section:
 
     * WRGW College Radio — GWU Sports Department — 2005 – 2009
   image: https://res.cloudinary.com/deepwywnm/image/upload/v1628857543/Alex%27s%20Site/alex-patriotic-scaled_kykeus.jpg
-  open_file: https://res.cloudinary.com/deepwywnm/raw/upload/v1628937283/Alex%27s%20Site/Nursing_Re%CC%81sume%CC%81_Fancy_ounq2u.docx
+  open_file: https://res.cloudinary.com/deepwywnm/image/upload/v1628937952/Alex%27s%20Site/Nursing_Re%CC%81sume%CC%81_Fancy_ks3bxi.pdf
 work_section:
   header: Welcome to my Portfolio
   head_copy: Here you'll find some videos and photos of the work I've done over
