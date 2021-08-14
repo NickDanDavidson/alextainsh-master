@@ -71,6 +71,7 @@ about_section:
 
     * WRGW College Radio — GWU Sports Department — 2005 – 2009
   image: https://res.cloudinary.com/deepwywnm/image/upload/v1628857543/Alex%27s%20Site/alex-patriotic-scaled_kykeus.jpg
+  open_file: https://res.cloudinary.com/deepwywnm/raw/upload/v1628937283/Alex%27s%20Site/Nursing_Re%CC%81sume%CC%81_Fancy_ounq2u.docx
 work_section:
   header: Welcome to my Portfolio
   head_copy: Here you'll find some videos and photos of the work I've done over
@@ -132,6 +133,7 @@ grid_section:
   copy: " "
 contact_section:
   heading: Get in Touch
-  copy: "Email me at ***TODO: Make WYSIWYG***"
+  copy: Email me at
+    [](mailto:alex.tainsh@gmail.com)[alex.tainsh@gmail.com](<mailto:alex.tainsh@gmail.com>).
   side_image: https://res.cloudinary.com/deepwywnm/image/upload/v1628858085/Alex%27s%20Site/Sketch-of-Alex-scaled_kr9lsp.webp
 ---
