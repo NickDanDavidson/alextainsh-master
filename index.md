@@ -32,7 +32,7 @@ about_section:
 
     Life in the minors has allowed me to develop a broad range of skills, including game presentation, graphic design and photography, social media marketing, and partner fulfillment. I understand how all these things work together to create a team's overall identity. Chattanooga has been the perfect place to grow, and it’s been awesome becoming a member of this community. I love to be active and am a life-long runner who recently discovered that long distances are actually more fun. I have now completed three half marathons, and hopefully soon I can update this to include "and one marathon." If you are at a Lookouts game or checking out the Chattanooga Miracle League, be sure to say “Hi.”
   content: >-
-
+    
 
     ##### Education
 
@@ -96,7 +96,7 @@ work_section:
       layout: centered_video
       video_header: Alex on This N' That
       video_copy: " "
-      video_link: https://youtu.be/vxCQIj0Zopk
+      video_link: https://www.youtube.com/embed/vxCQIj0Zopk
       text_image_position: left
       text_header: " "
     - gallery_images:
